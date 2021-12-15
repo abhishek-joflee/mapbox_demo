@@ -296,7 +296,7 @@ class MapUiBodyState extends State<MapUiBody> {
   Widget build(BuildContext context) {
     final MapboxMap mapboxMap = MapboxMap(
       accessToken:
-          'sk.eyJ1IjoiYWJoaXNoZWstam9mbGVlIiwiYSI6ImNrd3p4bnY3czA1YjYycHB5ejlzYnJmMzYifQ.mbtO5DU1y0ZtWS69H5sFYQ',
+          'YourToken',
       onMapCreated: onMapCreated,
       initialCameraPosition: _kInitialPosition,
       trackCameraPosition: true,
